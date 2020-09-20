@@ -8,25 +8,17 @@ The banner types are implemented as components while the interstitial and reward
 
 ## Installation
 
-You can use npm or Yarn to install the latest beta version:
+Do the clone of this in your project
 
 **npm:**
+  
+  In order to use this libary in your project
 
-    npm i --save react-native-admob@next
+    npm install file:react-native-admob  
 
-**Yarn:**
+    react-native run-androind 
 
-    yarn add react-native-admob@next
-
-In order to use this library, you have to link it to your project first. There's excellent documentation on how to do this in the [React Native Docs](https://facebook.github.io/react-native/docs/linking-libraries-ios.html#content).
-
-Alternatively for iOS you can install the library with CocoaPods by adding a line to your `Podfile`;
-
-    pod 'react-native-admob', path: '../node_modules/react-native-admob'
-
-### iOS
-
-For iOS you will have to add the [Google Mobile Ads SDK](https://developers.google.com/admob/ios/quick-start#import_the_mobile_ads_sdk) to your Xcode project.
+    react-native start -- --reset-cache
 
 ### Android
 
